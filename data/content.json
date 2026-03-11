@@ -1,0 +1,115 @@
+{
+  "info": {
+    "name": "Pizza Bella",
+    "subtitle": "Pizzeria Artisanale \u00e0 Istres",
+    "description": "Chez Pizza Bella, nous pr\u00e9parons des pizzas artisanales avec des ingr\u00e9dients frais et de qualit\u00e9. Nos pizzas g\u00e9n\u00e9reuses de 40cm sont pr\u00e9par\u00e9es avec amour pour satisfaire toutes vos envies. Livraison et \u00e0 emporter du mardi au dimanche.",
+    "address": "3 avenue Aristide Briand",
+    "city": "Istres",
+    "postalCode": "13800",
+    "phone": "06 70 31 00 53",
+    "email": "contact@pizzabella-istres.fr",
+    "hours": [
+      { "day": "Lundi", "hours": "Ferm\u00e9" },
+      { "day": "Mardi", "hours": "18h00 - 22h00" },
+      { "day": "Mercredi", "hours": "18h00 - 22h00" },
+      { "day": "Jeudi", "hours": "18h00 - 22h00" },
+      { "day": "Vendredi", "hours": "18h00 - 22h00" },
+      { "day": "Samedi", "hours": "18h00 - 22h00" },
+      { "day": "Dimanche", "hours": "18h00 - 22h00" }
+    ],
+    "deliveryMinimum": 15,
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/pizzabellaistres",
+      "instagram": "https://www.instagram.com/pizzabella_istres/"
+    }
+  },
+  "hero": {
+    "title": "Pizza Bella",
+    "subtitle": "Pizzas artisanales \u00e0 Istres \u2014 Livraison & \u00c0 emporter",
+    "ctaText": "Voir la Carte",
+    "ctaLink": "/menu"
+  },
+  "menu": [
+    {
+      "id": "tomate",
+      "name": "Pizzas Base Tomate",
+      "description": "Nos pizzas classiques sur base sauce tomate maison (40cm)",
+      "items": [
+        { "id": "margherita", "name": "Margherita", "description": "Sauce tomate, mozzarella, basilic frais", "price": 9.00 },
+        { "id": "reine", "name": "Reine", "description": "Sauce tomate, mozzarella, jambon, champignons", "price": 11.00 },
+        { "id": "4fromages", "name": "4 Fromages", "description": "Sauce tomate, mozzarella, ch\u00e8vre, gorgonzola, emmental", "price": 12.00 },
+        { "id": "napolitaine", "name": "Napolitaine", "description": "Sauce tomate, mozzarella, anchois, c\u00e2pres, olives", "price": 11.00 },
+        { "id": "calzone", "name": "Calzone", "description": "Sauce tomate, mozzarella, jambon, champignons, \u0153uf (pli\u00e9e)", "price": 12.00 },
+        { "id": "orientale", "name": "Orientale", "description": "Sauce tomate, mozzarella, merguez, poivrons, oignons", "price": 12.00 },
+        { "id": "mexicaine", "name": "Mexicaine", "description": "Sauce tomate, mozzarella, b\u0153uf hach\u00e9, poivrons, oignons, piment", "price": 13.00 },
+        { "id": "vegetarienne", "name": "V\u00e9g\u00e9tarienne", "description": "Sauce tomate, mozzarella, l\u00e9gumes grill\u00e9s, olives", "price": 11.00 },
+        { "id": "chorizo", "name": "Chorizo", "description": "Sauce tomate, mozzarella, chorizo, poivrons", "price": 12.00 },
+        { "id": "hawaienne", "name": "Hawa\u00efenne", "description": "Sauce tomate, mozzarella, jambon, ananas", "price": 11.00 }
+      ]
+    },
+    {
+      "id": "creme",
+      "name": "Pizzas Base Cr\u00e8me",
+      "description": "Nos pizzas onctueuses sur base cr\u00e8me fra\u00eeche (40cm)",
+      "items": [
+        { "id": "tartiflette", "name": "Tartiflette", "description": "Cr\u00e8me fra\u00eeche, mozzarella, pommes de terre, lardons, reblochon", "price": 13.00 },
+        { "id": "chevre-miel", "name": "Ch\u00e8vre Miel", "description": "Cr\u00e8me fra\u00eeche, mozzarella, ch\u00e8vre, miel, noix", "price": 12.00 },
+        { "id": "saumon", "name": "Saumon", "description": "Cr\u00e8me fra\u00eeche, mozzarella, saumon fum\u00e9, aneth", "price": 13.00 },
+        { "id": "raclette", "name": "Raclette", "description": "Cr\u00e8me fra\u00eeche, mozzarella, raclette, pommes de terre, jambon cru", "price": 14.00 },
+        { "id": "forestiere", "name": "Foresti\u00e8re", "description": "Cr\u00e8me fra\u00eeche, mozzarella, champignons, lardons, persil", "price": 12.00 }
+      ]
+    },
+    {
+      "id": "speciales",
+      "name": "Pizzas Sp\u00e9ciales",
+      "description": "Nos cr\u00e9ations signatures (40cm)",
+      "items": [
+        { "id": "la-bella", "name": "La Bella", "description": "Sauce tomate, mozzarella di bufala, jambon de Parme, roquette, parmesan", "price": 14.00 },
+        { "id": "la-royale", "name": "La Royale", "description": "Sauce tomate, mozzarella, fruits de mer, ail, persil", "price": 15.00 },
+        { "id": "la-kebab", "name": "La Kebab", "description": "Sauce blanche, mozzarella, viande kebab, oignons, salade, tomates", "price": 13.00 }
+      ]
+    },
+    {
+      "id": "entrees",
+      "name": "Entr\u00e9es",
+      "description": "Pour bien commencer le repas",
+      "items": [
+        { "id": "bruschetta", "name": "Bruschetta", "description": "Toast \u00e0 la tomate, basilic et huile d'olive", "price": 5.00 },
+        { "id": "mozzarella-sticks", "name": "Mozzarella Sticks (x6)", "description": "B\u00e2tonnets de mozzarella pan\u00e9s", "price": 6.00 },
+        { "id": "salade-caesar", "name": "Salade Caesar", "description": "Salade romaine, poulet, parmesan, cro\u00fbtons", "price": 8.00 }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Une touche sucr\u00e9e pour finir",
+      "items": [
+        { "id": "tiramisu", "name": "Tiramisu Maison", "description": "Notre tiramisu fait maison", "price": 5.00 },
+        { "id": "pizza-nutella", "name": "Pizza Nutella", "description": "Pizza sucr\u00e9e au Nutella", "price": 8.00 },
+        { "id": "panna-cotta", "name": "Panna Cotta", "description": "Cr\u00e8me vanille et coulis de fruits rouges", "price": 5.00 }
+      ]
+    },
+    {
+      "id": "boissons",
+      "name": "Boissons",
+      "description": "",
+      "items": [
+        { "id": "coca", "name": "Coca-Cola 33cl", "description": "", "price": 2.00 },
+        { "id": "coca-zero", "name": "Coca-Cola Zero 33cl", "description": "", "price": 2.00 },
+        { "id": "orangina", "name": "Orangina 33cl", "description": "", "price": 2.00 },
+        { "id": "ice-tea", "name": "Ice Tea 33cl", "description": "", "price": 2.00 },
+        { "id": "eau", "name": "Eau min\u00e9rale 50cl", "description": "", "price": 1.50 },
+        { "id": "perrier", "name": "Perrier 33cl", "description": "", "price": 2.50 }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ouverture",
+      "title": "Bienvenue sur notre nouveau site !",
+      "description": "D\u00e9couvrez notre carte compl\u00e8te et passez vos commandes facilement. Livraison gratuite \u00e0 partir de 15\u20ac !",
+      "active": true
+    }
+  ],
+  "gallery": []
+}
